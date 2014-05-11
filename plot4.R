@@ -11,7 +11,7 @@ data$fixdates <- strptime(data$fixdates, "%d/%m/%Y %T")
 data <- subset(data, data$Date == "2007-02-01" | data$Date == "2007-02-02")
 
 ## open png graphics device
-png("plot4.png", width = 504, height = 504)
+png("plot4.png", width = 480, height = 480)
 
 ## paramters 2 row, 2 columns
 par(mfrow=c(2,2))
